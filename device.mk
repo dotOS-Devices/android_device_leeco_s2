@@ -304,13 +304,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.sh \
-    init.qcom.post_boot.sh
-
-PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.target.rc \
     init.s2.usb.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.qcom.power.rc
 
 # RCS
 PRODUCT_PACKAGES += \

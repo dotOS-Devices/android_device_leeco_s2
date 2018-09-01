@@ -27,6 +27,7 @@
 #
 
 import /vendor/etc/init/hw/init.s2.usb.rc
+import /vendor/etc/init/hw/init.qcom.power.rc
 
 on early-init
     symlink /data/tombstones /tombstones
